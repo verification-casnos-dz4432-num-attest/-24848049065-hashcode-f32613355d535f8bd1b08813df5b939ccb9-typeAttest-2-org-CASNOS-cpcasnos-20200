@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>Vérification Attestation</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        .container {
+            max-width: 450px;
+            margin: 0 auto;
+            padding-bottom: 30px;
+            background-color: #ffffff;
+        }
+
+        /* Banner Link - Spacing reverted to original */
+        .banner-link {
+            display: block;
+            width: 98%; 
+            margin: 4px auto; 
+            text-decoration: none;
+        }
+
+        .banner-img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Header Text Area */
+        .header-text {
+            text-align: center;
+            margin-top: 18px; 
+            margin-bottom: 16px; /* Reduced distance between red text and info box */
+        }
+
+        .main-title {
+            color: #56B359; /* Lighter shade of green */
+            font-size: 18px; /* Increased size */
+            font-weight: bold;
+            margin: 0 0 8px 0;
+        }
+
+        .sub-title {
+            color: #F78080; /* Lighter shade of red */
+            font-size: 16px; 
+            font-weight: bold;
+            margin: 0;
+            white-space: nowrap; 
+        }
+
+        /* Information Box */
+        .info-box {
+            border: 1px solid #56B359; 
+            border-radius: 6px; 
+            padding: 10px 10px; 
+            margin: 06px; 
+            background-color: #ffffff;
+            text-align: left;
+        }
+
+        .info-row {
+            font-size: 16px;
+            color: #000000;
+            margin-bottom: 14px; 
+        }
+
+        .info-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .label {
+            font-weight: bold;
+        }
+
+        .red-slash {
+            color: #F78080; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="image_complete.png" target="_blank" class="banner-link">
+        <img src="banner_cropped.png" alt="Banner CASNOS" class="banner-img">
+    </a>
+    
+    <div class="header-text">
+        <h2 class="main-title">Attestation authentique</h2>
+        <p class="sub-title">Veuillez vérifier les informations personnelles</p>
+    </div>
+
+    <div class="info-box">
+        <div class="info-row"><span class="label">Matricule:</span> 21616049065</div>
+        <div class="info-row"><span class="label">N° attestation:</span> 2606482</div>
+        <div class="info-row"><span class="label">Nom:</span> AFFANE</div>
+        <div class="info-row"><span class="label">Prenom:</span> MOHAMED</div>
+        <div class="info-row"><span class="label">Date de naissance:</span> 25-01-1984</div>
+        <div class="info-row"><span class="label">Date ajour:</span> 31-12-2026</div>
+        <div class="info-row"><span class="label">Date annulation:</span> <span class="red-slash">/</span></div>
+    </div>
+</div>
+
+</body>
+</html>
